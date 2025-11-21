@@ -1,0 +1,31 @@
+{
+    // Vue/Volar settings for Astro + Vue project
+    "vue.server.hybridMode": true,
+    "vue.codeActions.enabled": true,
+    "vue.complete.casing.tags": "kebab",
+    "vue.complete.casing.props": "camel",
+    // TypeScript settings
+    "typescript.preferences.quoteStyle": "single",
+    "typescript.suggest.autoImports": true,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    // Astro settings
+    "astro.typescript.allowArbitraryAttributes": true,
+    // File associations
+    "files.associations": {
+        "*.astro": "astro"
+    },
+    // Formatting
+    "editor.formatOnSave": true,
+    "[vue]": {
+        "editor.defaultFormatter": "Vue.volar"
+    },
+    "[astro]": {
+        "editor.defaultFormatter": "astro-build.astro-vscode"
+    },
+    // IntelliSense
+    "editor.suggest.insertMode": "replace",
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    // Volar takeover mode (better performance for Vue projects)
+    "typescript.preferences.includePackageJsonAutoImports": "auto",
+    "vue.server.maxFileSize": 20971520
+}
